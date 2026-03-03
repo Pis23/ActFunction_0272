@@ -10,7 +10,7 @@ void input(){
     cout << "Masukkan Panjang =";
     cin >> p;
     cout << "Masukkan lebar = ";
-    cin >> l
+    cin >> l;
 }
 
 float jumlah(float a, float b, float c){
@@ -22,8 +22,12 @@ int luaspersegi(int a, int b){
 }
 
 void output(){
-    cout << "Hasilnya = " << luaspersegi(p,l) << endl
-    cout << 'Terimakasih' << endl
+    cout << "Hasilnya = " << luaspersegi(p,l) << endl;
+    cout << "Terimakasih" << endl;
 }
 
-int main()
+int main(){
+    input();
+    output();
+    cout << "Hasil penjumlahan = " << jumlah(p,l,50); 
+}
