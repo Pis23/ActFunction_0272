@@ -25,3 +25,5 @@ void output(){
     cout << "Hasilnya = " << luaspersegi(p,l) << endl
     cout << 'Terimakasih' << endl
 }
+
+int main()
